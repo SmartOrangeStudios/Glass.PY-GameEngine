@@ -13,4 +13,5 @@ def openwindow():
 
 def windowcontent():
     openwindow()
-    introTxt = 
+    introTxt = label(root, text="GlassEngine")
+    introTxt.pack()
